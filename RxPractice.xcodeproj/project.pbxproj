@@ -3,27 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1373BE4FDD72EB674111D9DF /* Pods_RxPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2FEA2E648F338441AD52EEF /* Pods_RxPractice.framework */; };
 		5BBC3D21289526240060B15C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBC3D20289526240060B15C /* AppDelegate.swift */; };
 		5BBC3D23289526240060B15C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBC3D22289526240060B15C /* SceneDelegate.swift */; };
-		5BBC3D25289526240060B15C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBC3D24289526240060B15C /* ViewController.swift */; };
 		5BBC3D28289526240060B15C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BBC3D26289526240060B15C /* Main.storyboard */; };
 		5BBC3D2A289526260060B15C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BBC3D29289526260060B15C /* Assets.xcassets */; };
 		5BBC3D2D289526260060B15C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BBC3D2B289526260060B15C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D7CC2886495105B16A49CA6 /* Pods-RxPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxPractice.debug.xcconfig"; path = "Target Support Files/Pods-RxPractice/Pods-RxPractice.debug.xcconfig"; sourceTree = "<group>"; };
 		5BBC3D1D289526240060B15C /* RxPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BBC3D20289526240060B15C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BBC3D22289526240060B15C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5BBC3D24289526240060B15C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5BBC3D27289526240060B15C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BBC3D29289526260060B15C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BBC3D2C289526260060B15C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BBC3D2E289526260060B15C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79BC3606638A6E997F671E9A /* Pods-RxPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxPractice.release.xcconfig"; path = "Target Support Files/Pods-RxPractice/Pods-RxPractice.release.xcconfig"; sourceTree = "<group>"; };
+		E2FEA2E648F338441AD52EEF /* Pods_RxPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1373BE4FDD72EB674111D9DF /* Pods_RxPractice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,8 @@
 			children = (
 				5BBC3D1F289526240060B15C /* RxPractice */,
 				5BBC3D1E289526240060B15C /* Products */,
+				701B6EF872AE775C53DCD2EA /* Pods */,
+				9D8E8598BC70D828A5706B38 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +61,71 @@
 		5BBC3D1F289526240060B15C /* RxPractice */ = {
 			isa = PBXGroup;
 			children = (
+				5BBC3D3828952BDE0060B15C /* Scene */,
+				5BBC3D3728952BCC0060B15C /* Service */,
+				5BBC3D3428952B770060B15C /* Model */,
+				5BBC3D3528952B860060B15C /* ViewController */,
+				5BBC3D3628952BA50060B15C /* ViewModel */,
 				5BBC3D20289526240060B15C /* AppDelegate.swift */,
 				5BBC3D22289526240060B15C /* SceneDelegate.swift */,
-				5BBC3D24289526240060B15C /* ViewController.swift */,
-				5BBC3D26289526240060B15C /* Main.storyboard */,
 				5BBC3D29289526260060B15C /* Assets.xcassets */,
-				5BBC3D2B289526260060B15C /* LaunchScreen.storyboard */,
 				5BBC3D2E289526260060B15C /* Info.plist */,
 			);
 			path = RxPractice;
+			sourceTree = "<group>";
+		};
+		5BBC3D3428952B770060B15C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5BBC3D3528952B860060B15C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5BBC3D26289526240060B15C /* Main.storyboard */,
+				5BBC3D2B289526260060B15C /* LaunchScreen.storyboard */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		5BBC3D3628952BA50060B15C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5BBC3D3728952BCC0060B15C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5BBC3D3828952BDE0060B15C /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		701B6EF872AE775C53DCD2EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D7CC2886495105B16A49CA6 /* Pods-RxPractice.debug.xcconfig */,
+				79BC3606638A6E997F671E9A /* Pods-RxPractice.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9D8E8598BC70D828A5706B38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2FEA2E648F338441AD52EEF /* Pods_RxPractice.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +135,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BBC3D31289526260060B15C /* Build configuration list for PBXNativeTarget "RxPractice" */;
 			buildPhases = (
+				DC96D91C81047FF0943AFEAE /* [CP] Check Pods Manifest.lock */,
 				5BBC3D19289526240060B15C /* Sources */,
 				5BBC3D1A289526240060B15C /* Frameworks */,
 				5BBC3D1B289526240060B15C /* Resources */,
+				509453A9D0FB4B2100C2061D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -103,7 +166,7 @@
 				};
 			};
 			buildConfigurationList = 5BBC3D18289526240060B15C /* Build configuration list for PBXProject "RxPractice" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -133,12 +196,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		509453A9D0FB4B2100C2061D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxPractice/Pods-RxPractice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxPractice/Pods-RxPractice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxPractice/Pods-RxPractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC96D91C81047FF0943AFEAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxPractice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5BBC3D19289526240060B15C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BBC3D25289526240060B15C /* ViewController.swift in Sources */,
 				5BBC3D21289526240060B15C /* AppDelegate.swift in Sources */,
 				5BBC3D23289526240060B15C /* SceneDelegate.swift in Sources */,
 			);
@@ -217,7 +321,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +376,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,6 +388,7 @@
 		};
 		5BBC3D32289526260060B15C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D7CC2886495105B16A49CA6 /* Pods-RxPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +417,7 @@
 		};
 		5BBC3D33289526260060B15C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79BC3606638A6E997F671E9A /* Pods-RxPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
