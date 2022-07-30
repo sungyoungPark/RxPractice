@@ -13,6 +13,7 @@
 		5BBC3D28289526240060B15C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BBC3D26289526240060B15C /* Main.storyboard */; };
 		5BBC3D2A289526260060B15C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BBC3D29289526260060B15C /* Assets.xcassets */; };
 		5BBC3D2D289526260060B15C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BBC3D2B289526260060B15C /* LaunchScreen.storyboard */; };
+		5BBC3D3A289531740060B15C /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBC3D39289531740060B15C /* Memo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5BBC3D29289526260060B15C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BBC3D2C289526260060B15C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BBC3D2E289526260060B15C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BBC3D39289531740060B15C /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		79BC3606638A6E997F671E9A /* Pods-RxPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxPractice.release.xcconfig"; path = "Target Support Files/Pods-RxPractice/Pods-RxPractice.release.xcconfig"; sourceTree = "<group>"; };
 		E2FEA2E648F338441AD52EEF /* Pods_RxPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -77,6 +79,7 @@
 		5BBC3D3428952B770060B15C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5BBC3D39289531740060B15C /* Memo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BBC3D3A289531740060B15C /* Memo.swift in Sources */,
 				5BBC3D21289526240060B15C /* AppDelegate.swift in Sources */,
 				5BBC3D23289526240060B15C /* SceneDelegate.swift in Sources */,
 			);
