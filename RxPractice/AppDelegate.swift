@@ -10,10 +10,20 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let storage = MemoryStorage()
+        let coordinator = SceneCoordinator(window: window!)
+        
+        //생성 시, storage, coordinator 의존성 주입됨
+        let listViewModel = MemoListViewModel(title: "나의 메오", sceneCoordinator: coordinator, storage: storage)
+        
+        let listScene = Scene.list(listViewModel)
+        
+        coordinator.transition(to: listScene, using: .root, animated: false)
+        
         return true
     }
 
